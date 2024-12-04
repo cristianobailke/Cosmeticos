@@ -1,0 +1,44 @@
+
+#cadastroform{
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 4px 6px #2222ac;
+}
+
+
+#orderSummary {
+    background-color: #b1b2e6;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+#paymentForm {
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 4px 6px #2222ac;
+}
+
+#paymentForm h3 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+#paymentForm .form-label {
+    font-weight: 600;
+}
+
+#paymentForm .btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    transition: background-color 0.3s, border-color 0.3s;
+    font-weight: 600;
+}
+
+#paymentForm .btn-primary:hover {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
